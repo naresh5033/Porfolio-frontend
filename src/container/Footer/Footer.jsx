@@ -5,7 +5,7 @@ import { AppWrap, MotionWrap } from "../../wrapper";
 import { client } from "../../client";
 import "./Footer.scss";
 //import { getUrlFromId } from "../../client";
-const url = ""
+const url =
   "https://cdn.sanity.io/files/0hnsyk7p/production/10121f97836e3944e897240191513ebf56d5a503.pdf";
 const Footer = () => {
   const [formData, setFormData] = useState({
@@ -96,7 +96,7 @@ const Footer = () => {
           <button type="button" className="p-text" onClick={handleSubmit}>
             {!loading ? "Send Message" : "Sending..."}
           </button>
-          <a href={url}>
+          <a href="https://cdn.sanity.io/files/0hnsyk7p/production/10121f97836e3944e897240191513ebf56d5a503.pdf">
             <button type="button" className="p-text" onClick={handleSubmit}>
               {!loading ? "DownLoad CV" : "DownLoading..."}
             </button>
