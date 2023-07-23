@@ -6,7 +6,7 @@ import { client } from "../../client";
 import "./Footer.scss";
 //import { getUrlFromId } from "../../client";
 const url =
-  "https://cdn.sanity.io/files/0hnsyk7p/production/58ff3bcad26bb6e8cd0e874d078cba4277c964a4.pdf";
+  "/https://portfolio-naresh.sanity.studio/desk/Resume;b2efac59-3e9d-46a6-9bd6-3eccaec6d86a";
 const Footer = () => {
   const [formData, setFormData] = useState({
     name: "",
