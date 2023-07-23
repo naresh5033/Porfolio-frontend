@@ -5,8 +5,8 @@ import { AppWrap, MotionWrap } from "../../wrapper";
 import { client } from "../../client";
 import "./Footer.scss";
 //import { getUrlFromId } from "../../client";
-const url =
-  "/https://portfolio-naresh.sanity.studio/desk/Resume;b2efac59-3e9d-46a6-9bd6-3eccaec6d86a";
+const url = ""
+  "https://cdn.sanity.io/files/0hnsyk7p/production/10121f97836e3944e897240191513ebf56d5a503.pdf";
 const Footer = () => {
   const [formData, setFormData] = useState({
     name: "",
