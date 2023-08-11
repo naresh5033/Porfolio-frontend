@@ -6,7 +6,7 @@ import { client } from "../../client";
 import "./Footer.scss";
 //import { getUrlFromId } from "../../client";
 const url =
-  "https://cdn.sanity.io/files/0hnsyk7p/production/10121f97836e3944e897240191513ebf56d5a503.pdf";
+  "https://cdn.sanity.io/files/0hnsyk7p/production/3637e5ee2e7e9f59227ce5157a239566e55443a2.pdf";
 const Footer = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -97,7 +97,7 @@ const Footer = () => {
             {!loading ? "Send Message" : "Sending..."}
           </button>
           <a href="https://cdn.sanity.io/files/0hnsyk7p/production/10121f97836e3944e897240191513ebf56d5a503.pdf">
-            <button type="button" className="p-text" >
+            <button type="button" className="p-text">
               {!loading ? "DownLoad CV" : "DownLoading..."}
             </button>
           </a>
