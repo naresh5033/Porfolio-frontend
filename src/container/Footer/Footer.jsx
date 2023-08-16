@@ -96,7 +96,7 @@ const Footer = () => {
           <button type="button" className="p-text" onClick={handleSubmit}>
             {!loading ? "Send Message" : "Sending..."}
           </button>
-          <a href="https://cdn.sanity.io/files/0hnsyk7p/production/3637e5ee2e7e9f59227ce5157a239566e55443a2.pdf">
+          <a href="https://cdn.sanity.io/files/0hnsyk7p/production/71c8c29709ffffe03142968dcfc72afc9679b6be.pdf">
             <button type="button" className="p-text">
               {!loading ? "DownLoad CV" : "DownLoading..."}
             </button>
